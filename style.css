@@ -1,0 +1,93 @@
+
+body {
+    background-color: rgb(210, 212, 207); /*background color*/
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1, h3 {
+    text-align: center; /*heading position center*/
+    color: rgb(62, 14, 14);
+}
+
+.navbar {
+    list-style-type: none;
+    background-color: rgb(11, 10, 10);
+    display: flex;
+    justify-content: space-around; /*space around the elements*/
+    padding: 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a i {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+form { /*display the form*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+form label, form input {
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form textarea {
+    width: 80%;
+    padding: 10px;
+    resize: vertical;
+    height: 100px;
+}
+
+form input[type="submit"] { /*design for the submit button*/
+    background-color: rgb(62, 14, 14);
+    color: white;
+    border: none;
+    cursor: pointer; /*cursour type is pointer, when cursor on the submit button */
+    padding: 10px 20px; /*space between the content and border*/
+    border-radius: 5px;
+    width: 30%;
+}
+
+form input[type="submit"]:hover { /*when we press the submit, w */
+    background-color: rgb(50, 11, 11);
+}
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+address{
+    text-align: center;
+}
